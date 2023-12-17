@@ -1,0 +1,151 @@
+body{
+    background-color: blueviolet;
+}
+
+
+/* 
+ <!----------------------------------starting navbar ----------------------------> */
+ .total{
+  display: flex; 
+}
+.text{
+  display: flex;
+}
+.title{
+  margin-top: 20px;
+  margin-left: 8px;
+  color: white;
+  font-size: 52px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.logo img{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.btn1{
+  margin-left: 380px;
+}
+.btn{
+  margin-top: 40px;
+  padding: 5px 55px;
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(113, 113, 113);
+  border-radius: 10px;
+  color: aliceblue;
+}
+.btn:hover{
+  color: rgb(251, 27, 255);
+  background-color: aqua;
+  border: 3px solid palevioletred;
+  box-shadow: 10px 5px rgb(251, 27, 255);
+  
+}
+  /* <!----------------------------------ending navbar ------------------------------> */
+  /* <!----------------------------------starting of middle part -------------------------> */
+  .middle{
+    margin: 40px auto;
+    width:  1500px;
+    height: 500px;
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    margin-top: 90px;
+    border: 2px solid #535353;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    
+   }
+   
+   .card-details1 {
+    color: rgb(255, 255, 255);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+    background-image: url(/images/front-noodles.jpeg);
+   }
+   .card-details2 {
+    color: rgb(255, 255, 255);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+    background-image: url(/images/chicken-noodles.jpeg);
+   }
+   .card-details {
+    color: rgb(0, 0, 0);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #2d6fff;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+   }
+   
+   .text-body {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 2em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #0091ff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+  /* <!----------------------------------ending of middle part ----------------------------> */
+  /* <!----------------------------------starting footer ----------------------------> */
+
+  footer{
+    margin-top: -50px;
+    width:  1500px;
+    margin-left: 10PX;
+    height: 260px;
+    display: flex;
+    background-color: rgb(93, 92, 92);
+    justify-content: space-evenly;
+  }
+ 
+  footer p{
+    color: #777676;
+  }
+  /* <!----------------------------------ending footer ------------------------------>  */

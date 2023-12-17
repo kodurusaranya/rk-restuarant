@@ -1,0 +1,300 @@
+
+body{
+    background: rgb(185, 255, 210);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+    position: relative;
+    width: 1330px;
+    height: 700px;
+    justify-content: space-evenly;
+    display: flex;
+    background: linear-gradient(-45deg, rgb(0, 153, 255) 0%, cyan 100%);
+    overflow: hidden;
+    border: 1px solid rgb(115, 115, 115);
+    box-shadow: rgba(141, 177, 205, 0.618) 0px 40px 30px -25px;
+    transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  a .title{
+    margin-top: -270px;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(154, 0, 177);
+  }
+  
+  .item-1{
+    margin-top: 220px;
+    width: 200px;
+    height: 350px;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(194, 138, 138);
+    
+}
+.item-1 img{
+    border-top-right-radius: 9px;
+    width: 200px;
+    border-top-left-radius: 9px;
+    height: 250px;
+}
+.item-1 h3{
+    /* margin-left: 30px; */
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    margin-left: 50px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: translateY(-25px);
+    background-color: black;
+    color: white;
+
+}
+.item-1 h4{
+    margin-top: -15px;
+    font-size: 13px;
+}
+.item-1 h4 span{
+    color: rgb(37, 113, 255);
+}
+
+  .card:hover {
+    transform: scale(1.08);
+    box-shadow: rgba(141, 177, 205, 0.618) 0px 30px 30px -25px;
+  }
+  
+  .icons-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    z-index: 999;
+  }
+
+  .icons-container a{
+    width: 500px;
+  }
+  
+  .icons-container .svg {
+    stroke: white;
+    width: 20px;
+    transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+  
+  .icons-container .svg:hover {
+    transform: scale(1.5);
+    stroke: black;
+  }
+  .whatsapp-ico{
+    border-radius: 70%;
+    position: absolute;
+}
+.icons-container .whatsapp-ico{
+  stroke: white;
+  width: 25px;
+  transition: transform 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.icons-container .whatsapp-ico:hover {
+  transform: scale(1.5);
+  stroke: black;
+}
+  .icons-container .whatsapp-ico {
+    fill: white;
+  }
+  
+  .icons-container .whatsapp-ico:hover {
+    fill: black;
+    stroke: none;
+  }
+  
+  .logo {
+    width: 50px;
+    padding: 1rem;
+  }
+  
+  .logo .svg {
+    fill: white;
+  }
+  
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    color: White;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(66, 66, 66, 0.349) 5px 0px 10px 0px inset;
+    transition: all 0.5s ease-in-out;
+    display: grid;
+    place-content: center;
+    padding: 2rem 2rem 3rem 2rem;
+    border: 1px solid black;
+    margin-left: 100px;
+  }
+  
+  .box .content {
+    position: relative;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out 0.3s;
+   
+  }
+  
+  .box .content .box-title {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .box .content .box-text {
+    color: rgba(0, 0, 0, 0.738);
+    font-size: 0.8rem;
+    
+  }
+  
+  .box:hover {
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    border: 1px solid transparent;
+    box-shadow: rgba(255, 255, 255, 0) 5px 0px 10px 0px inset;
+  }
+  
+  .box:hover .content {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
+  .box1 {
+    top: -100%;
+    right: -90%;
+    background: rgb(65, 207, 255);
+    border-radius: 200px;
+  }
+  
+  .box2 {
+    top: -95%;
+    right: -90%;
+    background: rgb(255, 154, 253);
+    border-radius: 200px;
+  }
+  
+  .box3 {
+    top: -90%;
+    right: -90%;
+    background: rgb(132, 136, 255);
+    border-radius: 200px;
+    
+  }
+  /* button in box */
+
+  .button1 {
+    margin-right: 50%;
+    --clr-shadow__border: rgb(78, 76, 1);
+    --clr-text: rgb(244, 244, 244);
+    --clr-space: #120e1e;
+    --clr-space-gr: #271950;
+    --clr-star: #b6bebf;
+    --size: 2rem ;
+    border-radius: 5px;
+    position: relative;
+    outline: 1px solid var(--clr-shadow__border);
+  }
+  
+  .button {
+    font-weight: 100;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+    background: transparent;
+    padding: calc(var(--size) / 2) var(--size);
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    color: var(--clr-text);
+    text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),
+    -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);
+  }
+  
+  .space {
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    gap: 1.5rem;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    background: linear-gradient( 160deg, var(--clr-space), var(--clr-space-gr));
+  }
+  
+  .button1:hover .space {
+    opacity: 1;
+  }
+  
+  .star {
+    height: 4rem;
+    width: 0.3rem;
+    transition: 0.5s;
+    border-radius: 50px;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    position: relative;
+    background-color: var(--clr-star);
+    animation: space-animation calc(0.1s * var(--i)) linear infinite;
+  }
+  
+  @keyframes space-animation {
+    0% {
+      transform: rotate(-30deg) translateY(calc(-52% * var(--i)));
+    }
+  
+    100% {
+      transform: rotate(-30deg) translateY(calc(52% * var(--i)));
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+
